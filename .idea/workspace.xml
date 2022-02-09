@@ -5,12 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3e7d572-fe21-42fb-858f-cefac4d0db91" name="Changes" comment="&quot;small change&quot;">
-      <change afterPath="$PROJECT_DIR$/adv/school/src/main/java/pl/sda/java/adv/school/model/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/Nauka/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/Nauka/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/Nauka/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/Nauka/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/Nauka/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/Nauka/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/Nauka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/Nauka/src/main/java/MainDataClassesOverview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/Nauka/src/main/java/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/Nauka/src/main/java/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/Nauka/src/main/java/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/Nauka/src/main/java/model/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/Nauka/src/main/java/util/PersonFirstNameLastNameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/Nauka/target/classes/MainDataClassesOverview.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/Nauka/target/classes/model/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/Nauka/target/classes/model/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/Nauka/target/classes/model/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/Nauka/target/classes/model/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/school/src/main/java/pl/sda/java/adv/school/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/school/src/main/java/pl/sda/java/adv/school/util/PersonFirstNameLastNameComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adv/school/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/adv/school/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adv/school/src/main/java/pl/sda/java/adv/school/MainDataClassesOverview.java" beforeDir="false" afterPath="$PROJECT_DIR$/adv/school/src/main/java/pl/sda/java/adv/school/MainDataClassesOverview.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adv/school/src/main/java/pl/sda/java/adv/school/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/adv/school/src/main/java/pl/sda/java/adv/school/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adv/school/src/main/java/pl/sda/java/adv/school/model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/adv/school/src/main/java/pl/sda/java/adv/school/model/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

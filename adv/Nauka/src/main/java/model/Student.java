@@ -1,14 +1,9 @@
-package pl.sda.java.adv.school.model;
-
-import java.time.LocalDate;
-import java.time.LocalDateTime;
+package model;
 
 public class Student extends Person{
     private short startYear;
     private byte schoolYear;
     private char classCode;
-
-
 
     public short getStartYear() {
         return startYear;
@@ -34,7 +29,6 @@ public class Student extends Person{
         this.classCode = classCode;
     }
 
-
     @Override
     public String toString() {
         return "Student{" +
@@ -43,6 +37,4 @@ public class Student extends Person{
                 ", classCode=" + classCode +
                 "} " + super.toString();
     }
-
-
 }

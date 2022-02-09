@@ -1,15 +1,8 @@
-package pl.sda.java.adv.school.model;
+package model;
 
-
-import java.time.LocalDate;
 import java.util.Set;
 
 public class Teacher extends Person {
-
-    private Set<String> classTypes;
-
-
-
     public Set<String> getClassTypes() {
         return classTypes;
     }
@@ -18,6 +11,7 @@ public class Teacher extends Person {
         this.classTypes = classTypes;
     }
 
+    private Set<String> classTypes;
 
     @Override
     public String toString() {
@@ -25,5 +19,4 @@ public class Teacher extends Person {
                 "classTypes=" + classTypes +
                 "} " + super.toString();
     }
-
 }
