@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3e7d572-fe21-42fb-858f-cefac4d0db91" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sda-transporeon1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adv/school/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adv/school/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adv/school/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adv/school/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adv/school/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adv/school/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adv/school/school.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adv/school/src/main/java/pl/sda/java/adv/school/MainDataClassesOverview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv/school/src/main/java/pl/sda/java/adv/school/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
