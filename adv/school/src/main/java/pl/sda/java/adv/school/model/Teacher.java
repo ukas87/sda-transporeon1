@@ -1,15 +1,14 @@
 package pl.sda.java.adv.school.model;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 
-public class Student implements Comparable<Student>{
+import java.time.LocalDate;
+import java.util.Set;
+
+public class Teacher implements Comparable<Teacher>{
     private String id;
     private String lastName;
     private String firstName;
-    private short startYear;
-    private byte schoolYear;
-    private char classCode;
+    private Set<String> classTypes;
     private LocalDate birthDate;
     private Address address;
 
@@ -37,28 +36,12 @@ public class Student implements Comparable<Student>{
         this.firstName = firstName;
     }
 
-    public short getStartYear() {
-        return startYear;
+    public Set<String> getClassTypes() {
+        return classTypes;
     }
 
-    public void setStartYear(short startYear) {
-        this.startYear = startYear;
-    }
-
-    public byte getSchoolYear() {
-        return schoolYear;
-    }
-
-    public void setSchoolYear(byte schoolYear) {
-        this.schoolYear = schoolYear;
-    }
-
-    public char getClassCode() {
-        return classCode;
-    }
-
-    public void setClassCode(char classCode) {
-        this.classCode = classCode;
+    public void setClassTypes(Set<String> classTypes) {
+        this.classTypes = classTypes;
     }
 
     public LocalDate getBirthDate() {
@@ -79,24 +62,21 @@ public class Student implements Comparable<Student>{
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "Teacher{" +
                 "id='" + id + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", firstName='" + firstName + '\'' +
-                ", startYear=" + startYear +
-                ", schoolYear=" + schoolYear +
-                ", classCode=" + classCode +
+                ", classTypes=" + classTypes +
                 ", birthDate=" + birthDate +
                 ", address=" + address +
                 '}';
     }
 
     @Override
-    public int compareTo(Student o) {
+    public int compareTo(Teacher o) {
         int lastNameResult = lastName.compareTo(o.lastName);
         if (lastNameResult != 0) {
             return lastNameResult;
         }
-        return firstName.compareTo(o.firstName);
-    }
+        return firstName.compareTo(o.firstName);    }
 }
